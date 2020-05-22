@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9d38370-32d2-43e5-bca9-1729f4e4c7bd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="work_shop_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aFlqdkVX4IemikeKF9wWBIA9Sa" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/softuni/workshop/util" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jorda\Desktop\MVC Project\mvc-project\src\main\java\softuni\workshop\util" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WorkshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="workshop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="softuni.workshop.WorkshopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d38370-32d2-43e5-bca9-1729f4e4c7bd" name="Default Changelist" comment="" />
+      <created>1586339414154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586339414154</updated>
+      <workItem from="1586339415830" duration="14798000" />
+      <workItem from="1586611301658" duration="1294000" />
+      <workItem from="1586612621851" duration="13378000" />
+      <workItem from="1586682132614" duration="814000" />
+      <workItem from="1587118793614" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="483" y="237" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586361114550">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="483" y="237" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1504.963@0.0.1504.963" timestamp="1586361114550" />
+    <state x="345" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586611204580">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1586611204580" />
+    <state x="558" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1586678176105">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586678176105" />
+    <state x="530" y="341" width="445" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586609367748">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="530" y="341" width="445" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1504.963@0.0.1504.963" timestamp="1586609367748" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1586682946938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1586682946937">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586682946937" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1586682946937">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586682946937" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1586682946938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1461" height="256" key="GridCell.Tab.1.bottom" timestamp="1586682946938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1461" height="256" key="GridCell.Tab.1.center" timestamp="1586682946938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1461" height="256" key="GridCell.Tab.1.left" timestamp="1586682946938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1461" height="256" key="GridCell.Tab.1.right" timestamp="1586682946938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="256" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1461" height="317" key="GridCell.Tab.2.bottom" timestamp="1586682946933">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.2.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586682946933" />
+    <state width="1461" height="317" key="GridCell.Tab.2.center" timestamp="1586682946932">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.2.center/0.0.1504.963@0.0.1504.963" timestamp="1586682946932" />
+    <state width="1461" height="317" key="GridCell.Tab.2.left" timestamp="1586682946932">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.2.left/0.0.1504.963@0.0.1504.963" timestamp="1586682946932" />
+    <state width="1461" height="317" key="GridCell.Tab.2.right" timestamp="1586682946932">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1461" height="317" key="GridCell.Tab.2.right/0.0.1504.963@0.0.1504.963" timestamp="1586682946932" />
+    <state width="250" height="457" key="HiddenNamespacesPopup" timestamp="1586613410160">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="250" height="457" key="HiddenNamespacesPopup/0.0.1504.963@0.0.1504.963" timestamp="1586613410160" />
+    <state x="634" y="372" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586612129267">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="634" y="372" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1504.963@0.0.1504.963" timestamp="1586612129267" />
+    <state x="449" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1590138285974">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="449" y="306" key="com.intellij.ide.util.TipDialog/0.0.1504.963/182.-1080.1920.1040@0.0.1504.963" timestamp="1590138285974" />
+    <state x="449" y="306" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1586682338443" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1586675850590">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586675850590" />
+  </component>
+</project>
