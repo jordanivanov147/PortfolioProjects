@@ -12,8 +12,6 @@ import softuni.workshop.util.impl.XmlParserImpl;
 @Configuration
 public class ApplicationBeanConfiguration {
 
-    //TODO
-
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
         return new BCryptPasswordEncoder();
