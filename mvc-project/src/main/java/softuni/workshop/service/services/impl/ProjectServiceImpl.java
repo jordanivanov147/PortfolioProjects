@@ -47,6 +47,7 @@ public class ProjectServiceImpl implements ProjectService {
         projectRootSeedDto.getProjects()
                 .stream()
                 .forEach(projectSeedDto -> {
+
                     if (this.validationUtil.isValid(projectSeedDto) &&
                     this.projectRepository.findByName(projectSeedDto.getName()) == null){
 
@@ -70,6 +71,7 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public String exportFinishedProjects(){
+
         StringBuilder resultMessage = new StringBuilder();
 
         this.projectRepository.findByFinishedIsTrue()
@@ -79,7 +81,6 @@ public class ProjectServiceImpl implements ProjectService {
                     resultMessage.append("\n\t").append(p.getPayment());
                     resultMessage.append(System.lineSeparator());
                 });
-
 
         return resultMessage.toString();
     }

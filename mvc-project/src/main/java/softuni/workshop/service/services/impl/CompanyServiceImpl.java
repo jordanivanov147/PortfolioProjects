@@ -43,16 +43,15 @@ public class CompanyServiceImpl implements CompanyService {
 
         companyRootSeedDto.getCompanies().stream()
                 .forEach(companySeedDto -> {
+
                     if (this.validationUtil.isValid(companyRootSeedDto) &&
                     this.companyRepository.findByName(companySeedDto.getName()) == null){
+
                         Company company =  this.modelMapper.map(companySeedDto, Company.class);
 
                         this.companyRepository.saveAndFlush(company);
                     }
                 });
-
-
-
     }
 
     @Override

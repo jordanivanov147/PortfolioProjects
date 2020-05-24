@@ -22,24 +22,21 @@ public class HomeController extends BaseController {
         this.employeeService = employeeService;
     }
 
-
     @GetMapping(value = "/")
     public ModelAndView index() {
-        ModelAndView modelAndView =
-                new ModelAndView("index");
 
-        return modelAndView;
+        return new ModelAndView("index");
     }
 
     @GetMapping(value = "/home")
     public ModelAndView home() {
+
         ModelAndView modelAndView = new ModelAndView("home");
         boolean areImported =
                         this.companyService.areImported() &&
                         this.projectService.areImported() &&
                         this.employeeService.areImported();
         modelAndView.addObject("areImported", areImported);
-
 
         return modelAndView;
     }

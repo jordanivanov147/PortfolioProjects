@@ -1,7 +1,5 @@
 package softuni.workshop.service.models;
 
-import softuni.workshop.data.entities.Role;
-
 import java.util.Set;
 
 public class UserServiceModel {

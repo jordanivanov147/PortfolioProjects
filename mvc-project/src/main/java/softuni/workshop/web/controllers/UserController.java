@@ -1,5 +1,6 @@
 package softuni.workshop.web.controllers;
 
+import org.dom4j.rule.Mode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import softuni.workshop.service.services.UserService;
+import softuni.workshop.web.models.UserLoginModel;
 import softuni.workshop.web.models.UserRegisterModel;
 
 @Controller
@@ -41,7 +43,14 @@ public class UserController extends BaseController {
 
     @GetMapping("/login")
     public ModelAndView login(){
+
         return super.view("user/login");
     }
+
+//    @PostMapping("/login")
+//    public ModelAndView loginConfirm(@ModelAttribute UserLoginModel userLoginModel){
+//
+//        return super.redirect("home");
+//    }
 
 }

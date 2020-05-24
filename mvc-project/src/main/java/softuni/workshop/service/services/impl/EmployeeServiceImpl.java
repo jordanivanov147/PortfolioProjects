@@ -44,10 +44,10 @@ public class EmployeeServiceImpl implements EmployeeService {
         EmployeeRootSeedDto employeeRootSeedDto =
                 this.xmlParser.unmarshalFromFile(EMPLOYEES_SEED_FILE_PATH, EmployeeRootSeedDto.class);
 
-
         employeeRootSeedDto.getEmployees()
                 .stream().
         forEach(employeeSeedDto -> {
+
             if (this.validationUtil.isValid(employeeSeedDto) &&
             this.employeeRepository.findByFirstNameAndLastName(employeeSeedDto.getFirstName(),employeeSeedDto.getLastName()) == null){
 
@@ -57,7 +57,6 @@ public class EmployeeServiceImpl implements EmployeeService {
                 this.employeeRepository.saveAndFlush(employee);
             }
         });
-
     }
 
     @Override
@@ -72,6 +71,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public String exportEmployeesWithAgeAbove() {
+
         StringBuilder resultMessage = new StringBuilder();
 
         this.employeeRepository.findByAgeGreaterThan(25)

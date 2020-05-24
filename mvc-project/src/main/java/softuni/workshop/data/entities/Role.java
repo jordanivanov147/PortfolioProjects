@@ -14,13 +14,11 @@ public class Role extends BaseEntity implements GrantedAuthority {
     private String authority;
 
     public Role() {
-
     }
 
     public Role(String authority){
         this.setAuthority(authority);
     }
-
 
     @Column(nullable = false)
     public String getAuthority() {

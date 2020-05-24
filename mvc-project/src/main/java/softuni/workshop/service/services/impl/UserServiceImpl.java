@@ -39,20 +39,18 @@ public class UserServiceImpl implements UserService {
 
         User user = this.modelMapper.map(userRegisterModel, User.class);
 
-
         if (this.userRepository.count() == 0){
+
             this.roleService.seedRolesInDb();
 
             user.setAuthorities(this.roleService.findAllRoles()
                     .stream()
                     .map(r -> this.modelMapper.map(r, Role.class))
                     .collect(Collectors.toSet()));
-
         }else {
 
             user.setAuthorities(new HashSet<>());
             user.getAuthorities().add(this.modelMapper.map(this.roleService.findByAuthority("USER"), Role.class));
-
         }
 
         user.setPassword(this.bCryptPasswordEncoder.encode(userRegisterModel.getPassword()));

@@ -1,6 +1,5 @@
 package softuni.workshop.data.dtos;
 
-import softuni.workshop.data.entities.Project;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

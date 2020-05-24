@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d38370-32d2-43e5-bca9-1729f4e4c7bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/config/ApplicationBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/config/ApplicationBeanConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/constants/GlobalConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/constants/GlobalConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/workshop.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/dtos/CompanyRootSeedDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/dtos/CompanyRootSeedDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/dtos/EmployeeRootSeedDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/dtos/EmployeeRootSeedDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/dtos/EmployeeSeedDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/dtos/EmployeeSeedDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/repositories/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/repositories/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/repositories/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/data/repositories/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/models/UserServiceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/models/UserServiceModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/service/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/util/impl/XmlParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/util/impl/XmlParserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/ExportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/ExportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/ImportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/ImportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/models/UserLoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/softuni/workshop/web/models/UserLoginModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +106,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -119,7 +137,7 @@
       <workItem from="1586612621851" duration="13378000" />
       <workItem from="1586682132614" duration="814000" />
       <workItem from="1587118793614" duration="229000" />
-      <workItem from="1590167389140" duration="1144000" />
+      <workItem from="1590167389140" duration="16280000" />
     </task>
     <servers />
   </component>
@@ -143,38 +161,50 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="530" y="341" width="445" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1504.963@0.0.1504.963" timestamp="1586609367748" />
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1586682946938">
+    <state x="311" y="80" key="CommitChangelistDialog2" timestamp="1590317203387">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
-    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1586682946937">
+    <state x="311" y="80" key="CommitChangelistDialog2/0.0.1504.963@0.0.1504.963" timestamp="1590317203387" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586682946937" />
-    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1586682946937">
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484308" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586682946937" />
-    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1586682946938">
+    <state width="1877" height="256" key="GridCell.Tab.0.center/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484307" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
-    <state width="1461" height="256" key="GridCell.Tab.1.bottom" timestamp="1586682946938">
+    <state width="1877" height="256" key="GridCell.Tab.0.left/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484307" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
-    <state width="1461" height="256" key="GridCell.Tab.1.center" timestamp="1586682946938">
+    <state width="1877" height="256" key="GridCell.Tab.0.right/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484308" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.1.bottom" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
-    <state width="1461" height="256" key="GridCell.Tab.1.left" timestamp="1586682946938">
+    <state width="1877" height="256" key="GridCell.Tab.1.bottom/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484308" />
+    <state width="1461" height="256" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.1.center" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
-    <state width="1461" height="256" key="GridCell.Tab.1.right" timestamp="1586682946938">
+    <state width="1877" height="256" key="GridCell.Tab.1.center/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484308" />
+    <state width="1461" height="256" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.1.left" timestamp="1590320432539">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1586682946938" />
+    <state width="1877" height="256" key="GridCell.Tab.1.left/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484308" />
+    <state width="1461" height="256" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
+    <state width="1461" height="256" key="GridCell.Tab.1.right" timestamp="1590320432539">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1877" height="256" key="GridCell.Tab.1.right/0.0.1504.963/182.-1080.1920.1040@182.-1080.1920.1040" timestamp="1590229484308" />
+    <state width="1461" height="256" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1590320432539" />
     <state width="1461" height="317" key="GridCell.Tab.2.bottom" timestamp="1586682946933">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -195,6 +225,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="250" height="457" key="HiddenNamespacesPopup/0.0.1504.963@0.0.1504.963" timestamp="1586613410160" />
+    <state x="228" y="220" key="SettingsEditor" timestamp="1590316341361">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="228" y="220" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1590316341361" />
     <state x="634" y="372" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586612129267">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
