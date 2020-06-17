@@ -47,10 +47,10 @@ public class UserController extends BaseController {
         return super.view("user/login");
     }
 
-//    @PostMapping("/login")
-//    public ModelAndView loginConfirm(@ModelAttribute UserLoginModel userLoginModel){
-//
-//        return super.redirect("home");
-//    }
+    @PostMapping("/login")
+    public ModelAndView loginConfirm(@ModelAttribute UserLoginModel userLoginModel){
+
+        return super.redirect("home");
+    }
 
 }
